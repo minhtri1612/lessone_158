@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/minhtri1612/lessone_158.git
     targetRevision: HEAD
-    path: environments/staging/apps/second-app
+    path: environments/staging/apps
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
