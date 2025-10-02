@@ -19,7 +19,7 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: minhtri1612/nginx
+          image: minhtri1612/nginx:v0.1.0
           ports:
             - containerPort: 80
           resources:
